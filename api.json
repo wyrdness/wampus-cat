@@ -1,0 +1,175 @@
+{
+  "category": "CRYPTID",
+
+  "meta": {
+    "version": "1.0.0",
+    "schema_version": "1.0.0",
+    "last_updated": "2026-01-14",
+    "repository": "https://github.com/wyrdness/wampus-cat",
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
+  },
+
+  "phenomenon": {
+    "id": "wampus-cat",
+    "name": "Wampus Cat",
+    "aliases": [
+      {
+        "name": "Wampus Beast",
+        "region": "Appalachia"
+      }
+    ],
+    "category": "CRYPTID",
+    "subcategory": "Fearsome Critter",
+    "tags": [
+      "fearsome-critter",
+      "lumberjack-folklore",
+      "appalachian",
+      "feline",
+      "six-legged",
+      "cherokee-influence",
+      "humorous",
+      "tall-tale"
+    ],
+    "status": "folklore",
+    "description": {
+      "summary": "A six-legged mountain cat from Appalachian folklore, blending Cherokee legends with frontier tall tales, known for supernatural speed and ferocity.",
+      "full": "The Wampus Cat is a fearsome critter that blends authentic Cherokee mythology with American frontier tall tales. Described as a six-legged panther-like creature, the Wampus Cat roams the Appalachian Mountains with supernatural speed. The Cherokee origin story tells of a woman who spied on sacred ceremonies while wearing a mountain lion skin; as punishment, she was transformed into the Wampus Cat. Lumberjacks and frontiersmen adapted this into their fearsome critter tradition, embellishing the creature with additional legs and exaggerated ferocity. Unlike purely invented critters, the Wampus Cat has roots in genuine Indigenous folklore, making it a cultural hybrid."
+    },
+    "etymology": {
+      "origin": "Cherokee folklore adapted by American frontier workers",
+      "meaning": "Various Cherokee origin stories; 'wampus' possibly from regional dialect",
+      "first_use": "Cherokee oral tradition predates American lumberjack versions"
+    }
+  },
+
+  "classification": {
+    "taxonomy": {
+      "category": "CRYPTID",
+      "type": "Fearsome Critter",
+      "subtype": "Feline",
+      "variant": "Appalachian"
+    },
+    "related_phenomena": [
+      {
+        "id": "cactus-cat",
+        "name": "Cactus Cat",
+        "relationship": "similar",
+        "description": "Another fearsome feline from regional folklore"
+      }
+    ]
+  },
+
+  "characteristics": {
+    "physical": {
+      "size": "Mountain lion to panther-sized",
+      "coloration": ["tawny", "yellow", "black in some accounts"],
+      "features": [
+        {
+          "feature": "Six legs",
+          "description": "Four front legs and two rear legs in most accounts",
+          "frequency": "common"
+        },
+        {
+          "feature": "Glowing eyes",
+          "description": "Eyes said to glow or reflect light eerily",
+          "frequency": "common"
+        },
+        {
+          "feature": "Feline features",
+          "description": "Panther or mountain lion-like appearance",
+          "frequency": "always"
+        }
+      ],
+      "morphology": "Large feline with extra front legs, enabling incredible speed"
+    },
+    "abilities": [
+      {
+        "ability": "Supernatural speed",
+        "description": "Moves with impossible swiftness due to extra legs",
+        "frequency": "always",
+        "evidence_level": "folklore"
+      },
+      {
+        "ability": "Fierce hunting",
+        "description": "Aggressive predator in tall tale versions",
+        "frequency": "common",
+        "evidence_level": "folklore"
+      }
+    ],
+    "behavior": {
+      "activity_period": "nocturnal",
+      "disposition": "aggressive in tall tales; varies by tradition",
+      "social_structure": "solitary",
+      "habitat_preference": ["mountains", "forests", "Appalachian wilderness"],
+      "diet": "Carnivorous predator",
+      "patterns": [
+        "Hunts in mountain regions",
+        "Associated with supernatural phenomena",
+        "Roams at night"
+      ]
+    }
+  },
+
+  "distribution": {
+    "range": {
+      "description": "Appalachian Mountains, particularly associated with Cherokee territories",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": ["Appalachia", "Tennessee", "North Carolina", "Kentucky"]
+    },
+    "temporal": {
+      "first_recorded": {
+        "date": "Pre-colonial",
+        "circa": true,
+        "source": "Cherokee oral tradition"
+      }
+    }
+  },
+
+  "history": {
+    "origins": {
+      "cultural_roots": "Cherokee mythology adapted into American frontier folklore",
+      "folklore_connections": "Represents fusion of Indigenous legend with fearsome critter tradition"
+    }
+  },
+
+  "cultural": {
+    "folklore": {
+      "traditions": ["Cherokee oral tradition", "Appalachian tall tales", "Lumberjack folklore"],
+      "beliefs": "In Cherokee tradition, represents punishment for transgression; in frontier tales, exaggerated local predator"
+    },
+    "indigenous": {
+      "cultures": ["Cherokee"],
+      "significance": "Original legend predates and differs from lumberjack adaptations",
+      "sensitivity_note": "Respect distinction between authentic Cherokee legend and later tall tale embellishments"
+    },
+    "popular_culture": {
+      "literature": [
+        "Fearsome Creatures of the Lumberwoods by William T. Cox (1910)"
+      ],
+      "other": [
+        "Sports team mascot (various schools)"
+      ]
+    }
+  },
+
+  "sources": [
+    {
+      "id": "cox-1910",
+      "type": "book",
+      "title": "Fearsome Creatures of the Lumberwoods",
+      "authors": ["William T. Cox"],
+      "date": "1910"
+    }
+  ]
+}
