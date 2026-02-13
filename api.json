@@ -1,10 +1,8 @@
 {
-  "category": "CRYPTID",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-01-14",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/wampus-cat",
     "maintainers": [
       {
@@ -18,158 +16,111 @@
       "content": "CC-BY-4.0"
     }
   },
-
   "phenomenon": {
     "id": "wampus-cat",
     "name": "Wampus Cat",
-    "aliases": [
-      {
-        "name": "Wampus Beast",
-        "region": "Appalachia"
-      }
-    ],
+    "aliases": [],
     "category": "CRYPTID",
-    "subcategory": "Fearsome Critter",
+    "subcategory": "Unknown",
     "tags": [
-      "fearsome-critter",
-      "lumberjack-folklore",
-      "appalachian",
-      "feline",
-      "six-legged",
-      "cherokee-influence",
-      "humorous",
-      "tall-tale"
+      "folklore",
+      "mythology"
     ],
-    "status": "folklore",
+    "status": "documented",
     "description": {
-      "summary": "A six-legged mountain cat from Appalachian folklore, blending Cherokee legends with frontier tall tales, known for supernatural speed and ferocity.",
-      "full": "The Wampus Cat is a fearsome critter that blends authentic Cherokee mythology with American frontier tall tales. Described as a six-legged panther-like creature, the Wampus Cat roams the Appalachian Mountains with supernatural speed. The Cherokee origin story tells of a woman who spied on sacred ceremonies while wearing a mountain lion skin; as punishment, she was transformed into the Wampus Cat. Lumberjacks and frontiersmen adapted this into their fearsome critter tradition, embellishing the creature with additional legs and exaggerated ferocity. Unlike purely invented critters, the Wampus Cat has roots in genuine Indigenous folklore, making it a cultural hybrid."
+      "summary": "The Wampus Cat is unique among fearsome critters because it blends authentic Cherokee mythology with American frontier tall tales.",
+      "full": "The Wampus Cat is unique among fearsome critters because it blends authentic Cherokee mythology with American frontier tall tales. Described as a six-legged mountain cat with supernatural speed, the Wampus Cat roams the Appalachian Mountains. In Cherokee tradition, the Wampus Cat originated as a woman who violated sacred law by spying on male ceremonial rituals while disguised in a mountain lion skin. As punishment, she was transformed into a half-woman, half-cat creature. American frontiersmen and lumberjacks adapted this legend, adding extra legs and exaggerating the creature's ferocity to fit the fearsome critter mold."
     },
     "etymology": {
-      "origin": "Cherokee folklore adapted by American frontier workers",
-      "meaning": "Various Cherokee origin stories; 'wampus' possibly from regional dialect",
-      "first_use": "Cherokee oral tradition predates American lumberjack versions"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
-
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Fearsome Critter",
-      "subtype": "Feline",
-      "variant": "Appalachian"
+      "type": "Unknown",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {
-        "id": "cactus-cat",
-        "name": "Cactus Cat",
-        "relationship": "similar",
-        "description": "Another fearsome feline from regional folklore"
-      }
-    ]
+    "related_phenomena": []
   },
-
   "characteristics": {
     "physical": {
-      "size": "Mountain lion to panther-sized",
-      "coloration": ["tawny", "yellow", "black in some accounts"],
-      "features": [
-        {
-          "feature": "Six legs",
-          "description": "Four front legs and two rear legs in most accounts",
-          "frequency": "common"
-        },
-        {
-          "feature": "Glowing eyes",
-          "description": "Eyes said to glow or reflect light eerily",
-          "frequency": "common"
-        },
-        {
-          "feature": "Feline features",
-          "description": "Panther or mountain lion-like appearance",
-          "frequency": "always"
-        }
-      ],
-      "morphology": "Large feline with extra front legs, enabling incredible speed"
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "abilities": [
-      {
-        "ability": "Supernatural speed",
-        "description": "Moves with impossible swiftness due to extra legs",
-        "frequency": "always",
-        "evidence_level": "folklore"
-      },
-      {
-        "ability": "Fierce hunting",
-        "description": "Aggressive predator in tall tale versions",
-        "frequency": "common",
-        "evidence_level": "folklore"
-      }
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "nocturnal",
-      "disposition": "aggressive in tall tales; varies by tradition",
-      "social_structure": "solitary",
-      "habitat_preference": ["mountains", "forests", "Appalachian wilderness"],
-      "diet": "Carnivorous predator",
-      "patterns": [
-        "Hunts in mountain regions",
-        "Associated with supernatural phenomena",
-        "Roams at night"
-      ]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
-
   "distribution": {
     "range": {
-      "description": "Appalachian Mountains, particularly associated with Cherokee territories",
-      "continents": ["North America"],
-      "countries": ["United States"],
-      "regions": ["Appalachia", "Tennessee", "North Carolina", "Kentucky"]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
+    "hotspots": [],
     "temporal": {
       "first_recorded": {
-        "date": "Pre-colonial",
+        "date": "Unknown",
         "circa": true,
-        "source": "Cherokee oral tradition"
+        "source": "Traditional folklore"
       }
     }
   },
-
   "history": {
     "origins": {
-      "cultural_roots": "Cherokee mythology adapted into American frontier folklore",
-      "folklore_connections": "Represents fusion of Indigenous legend with fearsome critter tradition"
-    }
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
+    },
+    "timeline": []
   },
-
+  "sightings": {
+    "statistics": {
+      "total_documented": 0,
+      "verified": 0,
+      "disputed": 0,
+      "debunked": 0
+    },
+    "notable": [],
+    "database_path": "./sightings/"
+  },
+  "evidence": {
+    "physical": [],
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
+  },
+  "theories": {
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
+  },
   "cultural": {
     "folklore": {
-      "traditions": ["Cherokee oral tradition", "Appalachian tall tales", "Lumberjack folklore"],
-      "beliefs": "In Cherokee tradition, represents punishment for transgression; in frontier tales, exaggerated local predator"
-    },
-    "indigenous": {
-      "cultures": ["Cherokee"],
-      "significance": "Original legend predates and differs from lumberjack adaptations",
-      "sensitivity_note": "Respect distinction between authentic Cherokee legend and later tall tale embellishments"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": [
-        "Fearsome Creatures of the Lumberwoods by William T. Cox (1910)"
-      ],
-      "other": [
-        "Sports team mascot (various schools)"
-      ]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
-
-  "sources": [
-    {
-      "id": "cox-1910",
-      "type": "book",
-      "title": "Fearsome Creatures of the Lumberwoods",
-      "authors": ["William T. Cox"],
-      "date": "1910"
-    }
-  ]
+  "research": {
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
+  },
+  "sources": []
 }
