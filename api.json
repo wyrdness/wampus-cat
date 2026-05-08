@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/wampus-cat",
     "maintainers": [
       {
@@ -16,111 +16,277 @@
       "content": "CC-BY-4.0"
     }
   },
+
   "phenomenon": {
     "id": "wampus-cat",
     "name": "Wampus Cat",
-    "aliases": [],
+    "aliases": [
+      { "name": "Gallywampus", "region": "Missouri, USA" },
+      { "name": "Whistling Wampus", "region": "Ozarks, USA" },
+      { "name": "Catawampus", "region": "Appalachia, USA", "meaning": "regional adjective sometimes used for the creature" }
+    ],
     "category": "CRYPTID",
-    "subcategory": "Unknown",
+    "subcategory": "Appalachian fearsome critter / Cherokee folklore",
     "tags": [
+      "appalachia",
+      "cherokee",
+      "feline",
+      "fearsome-critter",
       "folklore",
-      "mythology"
+      "mythology",
+      "north-america",
+      "shapeshifter"
     ],
     "status": "documented",
     "description": {
-      "summary": "The Wampus Cat is unique among fearsome critters because it blends authentic Cherokee mythology with American frontier tall tales.",
-      "full": "The Wampus Cat is unique among fearsome critters because it blends authentic Cherokee mythology with American frontier tall tales. Described as a six-legged mountain cat with supernatural speed, the Wampus Cat roams the Appalachian Mountains. In Cherokee tradition, the Wampus Cat originated as a woman who violated sacred law by spying on male ceremonial rituals while disguised in a mountain lion skin. As punishment, she was transformed into a half-woman, half-cat creature. American frontiersmen and lumberjacks adapted this legend, adding extra legs and exaggerating the creature's ferocity to fit the fearsome critter mold."
+      "summary": "A panther-like cryptid of Appalachian folklore with roots in Cherokee mythology, often described as a large, dark cat — sometimes with extra legs, glowing eyes, and shapeshifting powers — said to roam the southeastern United States.",
+      "full": "The Wampus Cat is a creature of southern Appalachian folklore whose tradition fuses Cherokee mythology with the 'fearsome critters' tall-tale tradition of the American frontier. In Cherokee tradition, recorded by ethnographers including James Mooney, the Wampus Cat is associated with a woman who, having transgressed sacred protocols by spying on a male ceremony while wearing a mountain lion's skin, was transformed into a half-woman, half-cat being. American frontier and lumbercamp folklore later adopted and embellished the figure as one of many 'fearsome critters' (gallywampus, hidebehind, hodag), often giving it extra legs, glowing eyes, and supernatural speed. Modern descriptions vary by region: a large dark feline 7–20 feet long, sometimes attributed with shapeshifting or invisibility, sometimes blamed for livestock kills, sometimes simply cited as the source of unexplained screaming or whistling at night. The Wampus Cat is the mascot of multiple American high schools (e.g., Conway High School, Arkansas) and colleges, and was incorporated into the wizarding-school 'Ilvermorny' setting of J. K. Rowling's Pottermore writings (2016)."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "American English, southern Appalachia and Ozarks; the term may be a corruption of 'catawampus' (an irregular dialect adjective meaning 'askew' or 'fierce'). Some Cherokee tellings give an Indigenous-language origin (e.g., Ewah) but in the dominant English-language form the name 'Wampus Cat' is the standard.",
+      "meaning": "An adjectival form connoting fierceness, irregularity, and unpredictability applied to a feline creature.",
+      "first_use": "Late 19th and early 20th-century American folklore; appears in Henry H. Tryon's Fearsome Critters (1939)."
     }
   },
+
   "classification": {
     "taxonomy": {
       "category": "CRYPTID",
-      "type": "Unknown",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "type": "Felid cryptid",
+      "subtype": "Fearsome critter",
+      "variant": "Appalachian / southeastern United States"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "ewah", "name": "Ewah", "relationship": "related", "description": "Cherokee 'spirit of madness' associated in some tellings with the Wampus Cat origin story" },
+      { "id": "fearsome-critters", "name": "Fearsome Critters", "relationship": "superset", "description": "American frontier tall-tale fauna including hidebehind, hodag, and gallywampus" },
+      { "id": "black-panther", "name": "Eastern black panther sightings", "relationship": "related", "description": "Eastern US folklore of large black cats sometimes overlaps with Wampus Cat reports" },
+      { "id": "cactus-cat", "name": "Cactus Cat", "relationship": "similar", "description": "Western fearsome-critter felid" }
+    ]
   },
+
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "coloration": ["dark brown", "black", "grey"],
+      "features": [
+        { "feature": "Large feline body", "description": "Described as a panther- or cougar-like cat, sometimes much larger than a known mountain lion", "frequency": "always" },
+        { "feature": "Glowing green or yellow eyes", "description": "A frequently mentioned feature; eyes reported to shine in flashlight or moonlight", "frequency": "common" },
+        { "feature": "Six legs (in some tellings)", "description": "Some Appalachian and fearsome-critter accounts describe the Wampus Cat with extra (sometimes six) legs", "frequency": "occasional" },
+        { "feature": "Loud scream / whistle", "description": "Famous for a piercing scream or whistle at night, sometimes likened to a cougar's call", "frequency": "common" }
+      ],
+      "morphology": "Variable; usually a large dark felid with exaggerated leg-count, eye-shine, and sometimes hominid traces in Cherokee-derived tellings."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Supernatural speed", "description": "Reported as preternaturally fast, escaping pursuit and dogs", "frequency": "common", "evidence_level": "folklore" },
+      { "ability": "Shapeshifting", "description": "In Cherokee-derived tellings, the Wampus Cat is the transformed form of a human woman", "frequency": "occasional", "evidence_level": "folklore" },
+      { "ability": "Loud screaming or whistling", "description": "Distinctive nocturnal vocalisation, often the only 'evidence' of the creature", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Invisibility (some tellings)", "description": "Some lumbercamp accounts attribute partial invisibility to the creature", "frequency": "rare", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "nocturnal",
+      "disposition": "aggressive",
+      "social_structure": "solitary",
+      "habitat_preference": ["southern Appalachian forests", "Ozark hills", "Piedmont farmland", "deep timber"],
+      "diet": "Predatory; in folklore, blamed for killing livestock (especially dogs and small farm animals).",
+      "patterns": [
+        "Active at night, especially around isolated farms",
+        "Reported in conjunction with unexplained livestock deaths",
+        "Used as cautionary figure for children and travellers in Appalachian and Ozark communities"
+      ]
     }
   },
+
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Reports and folklore concentrate in the southern Appalachian Mountains (Tennessee, North Carolina, Kentucky, West Virginia, Virginia, northern Georgia and Alabama) and the Ozarks (Arkansas, Missouri).",
+      "continents": ["North America"],
+      "countries": ["United States"],
+      "regions": [
+        "Southern Appalachia",
+        "Ozarks",
+        "Piedmont",
+        "Cherokee homelands"
+      ]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Conway, Arkansas",
+        "location": {
+          "description": "Hometown of Conway High School, whose mascot is the Wampus Cat",
+          "country": "United States",
+          "region": "Arkansas"
+        },
+        "peak_period": "20th–21st century",
+        "notes": "One of the most prominent uses of the Wampus Cat as a cultural symbol in modern America."
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "Pre-contact",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Cherokee oral tradition; later recorded by James Mooney and others"
+      },
+      "peak_activity_periods": [
+        { "period": "1880s–1940s", "description": "Adoption and elaboration as a 'fearsome critter' in American lumbercamp tall tales" },
+        { "period": "20th century", "description": "Adoption as a sports mascot and regional symbol in the southern United States" }
+      ]
     }
   },
+
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Cherokee mythology (the woman transformed for transgressing a sacred male ceremony) merged with American frontier and lumbercamp tall-tale traditions.",
+      "earliest_accounts": "Cherokee oral tradition predates contact; English-language documentation begins with American ethnography of the late 19th century and lumbercamp folklore of the early 20th century.",
+      "folklore_connections": "Part of the wider American 'fearsome critter' tradition (hidebehind, hodag, snipe, gallywampus) and the Cherokee corpus of transformation stories."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1900-01-01", "event": "James Mooney's Myths of the Cherokee (1900) records Cherokee transformation stories that later become associated with the Wampus Cat tradition", "significance": "Foundational ethnographic record of the underlying Cherokee material", "source": "Mooney, J. (1900), Myths of the Cherokee, Bureau of American Ethnology" },
+      { "date": "1939-01-01", "event": "Henry H. Tryon publishes Fearsome Critters, listing the Wampus Cat among Appalachian and lumbercamp tall-tale fauna", "significance": "Codifies the Wampus Cat in the American fearsome-critter literature", "source": "Tryon, H. H. (1939), Fearsome Critters" },
+      { "date": "2016-03-08", "event": "J. K. Rowling's Pottermore essay on Ilvermorny School of Witchcraft and Wizardry uses 'Wampus' as one of four houses, citing 'magical, panther-like creatures of American folklore'", "significance": "Brings the Wampus Cat to international pop-culture attention", "source": "Rowling, J. K. (2016), Pottermore" }
+    ],
+    "modern_era": "The Wampus Cat survives as a regional icon in the American southeast — most visibly as the official mascot of Conway High School (Arkansas) and other schools — and as a recurring figure in modern Appalachian folk-horror media, podcasts, and tourism."
   },
+
   "sightings": {
     "statistics": {
       "total_documented": 0,
       "verified": 0,
       "disputed": 0,
-      "debunked": 0
+      "debunked": 0,
+      "date_range": { "earliest": "Pre-contact", "latest": "2026" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
+
   "evidence": {
     "physical": [],
     "photographic": [],
     "video": [],
     "audio": [],
-    "trace": []
+    "trace": [],
+    "documentary": [
+      {
+        "id": "wampus-cat-evidence-mooney",
+        "type": "ethnographic monograph",
+        "name": "Mooney, Myths of the Cherokee",
+        "date": "1900",
+        "description": "James Mooney's 1900 Bureau of American Ethnology monograph collecting Cherokee oral tradition, including transformation narratives later linked to the Wampus Cat.",
+        "status": "verified",
+        "analysis": "Foundational ethnographic source for the Cherokee strand of the Wampus Cat tradition.",
+        "source": "James Mooney, Bureau of American Ethnology (1900)"
+      },
+      {
+        "id": "wampus-cat-evidence-tryon",
+        "type": "folklore book",
+        "name": "Tryon, Fearsome Critters",
+        "date": "1939",
+        "description": "Henry H. Tryon's collection of American lumbercamp and frontier tall-tale fauna, in which the Wampus Cat appears as one entry.",
+        "status": "verified",
+        "analysis": "Documents the Wampus Cat's place in the wider 'fearsome critter' literary tradition.",
+        "source": "Henry H. Tryon (1939)"
+      }
+    ]
   },
+
   "theories": {
-    "paranormal": [],
-    "scientific": [],
-    "skeptical": []
+    "paranormal": [
+      {
+        "name": "Cherokee spirit-being",
+        "description": "In Cherokee tradition the Wampus Cat is interpreted as the transformed body of a human transgressor of sacred protocols, reflecting cosmological ideas about ceremony, gender, and consequence.",
+        "proponents": ["Cherokee oral tradition", "James Mooney and later Cherokee ethnographers"],
+        "evidence_cited": ["Cherokee transformation narratives", "Continued cultural transmission within Cherokee communities"]
+      }
+    ],
+    "scientific": [
+      {
+        "name": "Misidentification of mountain lions / large feral cats",
+        "description": "Modern 'Wampus Cat' encounters are most plausibly accounted for by extant or recolonising mountain lion (Puma concolor) populations, oversized feral domestic cats, and bobcats (Lynx rufus).",
+        "proponents": ["Wildlife biology / mainstream zoology"],
+        "evidence_cited": ["Documented eastern recolonisation by mountain lions", "Comparable size and call patterns of confirmed felids"]
+      }
+    ],
+    "skeptical": [
+      {
+        "name": "Tall-tale and frontier folklore",
+        "description": "Most of the modern Wampus Cat tradition is a literary and oral folklore complex shaped by lumbercamp and Appalachian tall-tale culture rather than a discrete biological referent.",
+        "proponents": ["American folklore scholarship"],
+        "evidence_cited": ["Co-occurrence with other fearsome critters (hodag, hidebehind, gallywampus)", "Stylistic markers of tall-tale humour"]
+      }
+    ]
   },
+
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "Cherokee transformation stories",
+        "American 'fearsome critters' lumbercamp tradition",
+        "Appalachian and Ozark farm folklore"
+      ],
+      "stories": [
+        "Cherokee origin of the Wampus Cat: a woman transformed for spying on a sacred male ceremony while wearing a mountain lion skin",
+        "Lumbercamp tall tales of six-legged Wampus Cats stalking timber crews"
+      ],
+      "beliefs": "Today the Wampus Cat is widely regarded as a folkloric tall-tale figure rather than a literally believed creature, but it retains strong regional identity in the southern United States."
+    },
+    "indigenous": {
+      "cultures": ["Cherokee (Tsalagi)"],
+      "significance": "Within Cherokee tradition, the underlying transformation story carries meanings about ceremony, gender, and proper conduct distinct from the later American tall-tale framing.",
+      "sensitivity_note": "The Cherokee strand of the tradition is not interchangeable with the American 'fearsome critter' or sports-mascot framings; conflating them risks erasing the source culture.",
+      "respect_guidelines": "Cite Cherokee-authored and authoritative ethnographic sources where possible (e.g., Mooney, contemporary Cherokee writers), and avoid presenting the Wampus Cat as wholly an American frontier invention."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "James Mooney, Myths of the Cherokee (1900)",
+        "Henry H. Tryon, Fearsome Critters (1939)",
+        "J. K. Rowling, 'Ilvermorny School of Witchcraft and Wizardry' essay on Pottermore (2016)"
+      ],
+      "film_tv": [
+        "Various Appalachian folk-horror documentaries and shorts"
+      ],
+      "games": [
+        "Used as a creature in tabletop and indie video-game settings drawing on American folklore"
+      ],
+      "music": [],
+      "other": [
+        "Mascot of Conway High School (Arkansas), Itasca Wampus Cats (Texas), and Atoka Wampus Cats (Oklahoma), among others",
+        "Regional festivals and Halloween events"
+      ]
     }
   },
+
   "research": {
-    "researchers": [],
+    "researchers": [
+      { "name": "James Mooney", "affiliation": "Bureau of American Ethnology, Smithsonian Institution", "contribution": "1900 ethnography Myths of the Cherokee, foundational to the Cherokee strand of the Wampus Cat tradition", "period": "Late 19th–early 20th century" },
+      { "name": "Henry H. Tryon", "affiliation": "Forester and folklore writer", "contribution": "1939 compendium Fearsome Critters", "period": "Early 20th century" }
+    ],
     "organizations": [],
-    "ongoing_studies": "None documented"
+    "ongoing_studies": "Wampus Cat material is engaged with in American folklore studies, Cherokee studies, and amateur cryptozoology; there is no formal research programme."
   },
-  "sources": []
+
+  "sources": [
+    {
+      "id": "wikipedia-wampus-cat",
+      "type": "website",
+      "title": "Wampus cat",
+      "url": "https://en.wikipedia.org/wiki/Wampus_cat",
+      "publication": "Wikipedia",
+      "accessed": "2026-05-07"
+    },
+    {
+      "id": "mooney-1900",
+      "type": "book",
+      "title": "Myths of the Cherokee",
+      "authors": ["James Mooney"],
+      "publication": "Bureau of American Ethnology, Smithsonian Institution",
+      "date": "1900"
+    },
+    {
+      "id": "tryon-1939",
+      "type": "book",
+      "title": "Fearsome Critters",
+      "authors": ["Henry H. Tryon"],
+      "publication": "Idlewild Press",
+      "date": "1939"
+    }
+  ]
 }
